@@ -12,25 +12,31 @@ body {
       monospace;
   }
 
-  .toprow {
-    width: 100%;
-    margin: 0 auto;
-  }
-
   .minilogo {
     width: 8%;
     height: 8%;
   }
 
-  .toprow nav {
+  header nav {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    margin-bottom: 3rem;
-    margin-top: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.7rem 4rem 2rem 4rem;
   }
 
-  .large {
-    width: 100%;
+  .topcontent {
+    margin: 4rem 4rem;
+  }
+
+  .topcontent button {
+    border: none;
+    border-radius: 4px;
+    background-color: darkorange;
+    color: #C71585;
+    cursor: pointer;
+    margin: 35px auto 25px auto;
+    padding: 1.5px 28px;
+    font-size: 2rem;
   }
 
