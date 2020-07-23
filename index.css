@@ -12,6 +12,11 @@ body {
       monospace;
   }
 
+  .toprow {
+    width: 800px;
+    margin: 0 auto;
+  }
+
   .minilogo {
     width: 15%;
     padding: 20px;
@@ -22,3 +27,8 @@ body {
     display: flex;
     justify-content: space-evenly;
   }
+
+  .large {
+    width: 75%;
+  }
+
