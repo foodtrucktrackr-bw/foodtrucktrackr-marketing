@@ -1,16 +1,14 @@
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
+html, body {
+  height: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: darkorange;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 35px;
+  margin-bottom: 3px;
+  font-family: 'Rubik', sans-serif;
+}
 
   .minilogo {
     width: 8%;
@@ -23,31 +21,38 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 1.7rem 4rem 2rem 4rem;
+    background-color: deepskyblue;
+    text-decoration: none;
   }
 
   .topcontent {
     margin: 3rem 3rem;
   }
 
-  .topcontent button {
-    border: none;
-    border-radius: 4px;
-    background-color: darkorange;
-    color: #C71585;
-    cursor: pointer;
-    margin: 35px auto 25px auto;
-    padding: 1.5px 28px;
-    font-size: 2rem;
+  .foodhead {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   
   .topcontent p {
     display: flex;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 1.5%;
   }
 
   .large {
     width: 95%;
+    height: 700px;
     margin-left: 2rem;
+    padding: 10px;
+  }
+
+  .middlecontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 23px;
+    margin: 1rem;
   }
