@@ -53,6 +53,26 @@ h1, h2, h3, h4, h5 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    font-size: 23px;
-    margin: 1rem;
+    text-align: center;
+    font-size: 21px;
+    margin: 2.8rem;
+    padding: 1.2rem;
+  }
+
+  .bottompics {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    margin: 8rem 0 8rem 0;
+  }
+
+  .appeats {
+    text-align: center;
+    margin: 2%;
+  }
+
+  .appeats .appeatspic {
+    position: relative;
+    bottom: 1rem;
+    width: 18rem;
   }
