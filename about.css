@@ -49,11 +49,19 @@ header nav {
   margin-bottom: 2%;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
 .ashley {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-bottom: 2rem;
+  text-decoration: none;
 }
 
 .ashley img {
@@ -63,4 +71,59 @@ header nav {
   margin-bottom: 1rem;
 }
 
+.frontenddevs {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
 
+.frontenddevs img {
+  justify-content: center;
+  border-radius: 45%;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.frontenddevs .Kirsten,
+.frontenddevs .Natividad,
+.frontenddevs .Mark {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.backenddev {
+  display: flex;
+  justify-content: center;
+}
+
+.backenddev img {
+  justify-content: center;
+  border-radius: 45%;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.backenddev .Amber {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: none;
+}
+
+.copyright {
+  color: black;
+  font-size: 20px;
+  border-top: 2px solid #663399;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.copyright p {
+  margin-top: 2%;
+}
