@@ -11,5 +11,34 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
   }
 
+.minilogo {
+    width: 8%;
+    height: 8%;
+  }
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.7rem 4rem 2rem 4rem;
+    background-color: deepskyblue;
+    text-decoration: none;
+  }
+
+.aboutFT h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+.aboutFT p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-top: 1.5%;
+    padding: 10px;
+  }
 
 
