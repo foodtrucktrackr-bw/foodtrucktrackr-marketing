@@ -11,12 +11,12 @@ h1, h2, h3, h4, h5 {
   font-family: 'Rubik', sans-serif;
 }
 
-  .minilogo {
+.minilogo {
     width: 8%;
     height: 8%;
   }
 
-  header nav {
+header nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -26,31 +26,31 @@ h1, h2, h3, h4, h5 {
     text-decoration: none;
   }
 
-  .topcontent {
+.topcontent {
     margin: 3rem 3rem;
   }
 
-  .foodhead {
+.foodhead {
     display: flex;
     flex-direction: row;
     justify-content: center;
   }
   
-  .topcontent p {
+.topcontent p {
     display: flex;
     justify-content: center;
     font-size: 1.4rem;
     margin-top: 1.5%;
   }
 
-  .large {
+.large {
     width: 95%;
     height: 700px;
     margin-left: 2rem;
     padding: 10px;
   }
 
-  .middlecontent {
+.middlecontent {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -60,25 +60,25 @@ h1, h2, h3, h4, h5 {
     padding: 1.2rem;
   }
 
-  .bottompics {
+.bottompics {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     margin: 8rem 0 8rem 0;
   }
 
-  .appeats {
+.appeats {
     text-align: center;
     margin: 2%;
   }
 
-  .appeats .appeatspic {
+.appeats .appeatspic {
     position: relative;
     bottom: 1rem;
     width: 18rem;
   }
 
-  .copyright {
+.copyright {
     color: black;
     font-size: 20px;
     border-top: 2px solid #663399;
@@ -88,6 +88,6 @@ h1, h2, h3, h4, h5 {
     margin-top: 3%;
   }
 
-  .copyright p {
+.copyright p {
     margin-top: 2%;
   }
