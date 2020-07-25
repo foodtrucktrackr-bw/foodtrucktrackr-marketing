@@ -29,7 +29,8 @@ header nav {
   @media (max-width: 500px) {
     header nav {
       display: flex;
-      justify-content: column;
+      flex-direction: column;
+      justify-content: space-evenly;
     }
   }
 
