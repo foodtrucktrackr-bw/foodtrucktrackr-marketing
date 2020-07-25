@@ -34,6 +34,7 @@ header nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    color: #C71585;
   }
   
 .topcontent p {
@@ -60,6 +61,10 @@ header nav {
     padding: 1.2rem;
   }
 
+  .middlecontent h2 {
+    color: #2E4053;
+  }
+
 .bottompics {
     display: flex;
     justify-content: space-evenly;
@@ -70,12 +75,17 @@ header nav {
 .appeats {
     text-align: center;
     margin: 2%;
+    font-size: 21px;
   }
 
 .appeats .appeatspic {
     position: relative;
     bottom: 1rem;
     width: 18rem;
+  }
+
+  .appeats h3 {
+    color: #2E4053;
   }
 
 .copyright {

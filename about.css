@@ -31,6 +31,7 @@ header nav {
     flex-direction: row;
     justify-content: center;
     margin-bottom: 1rem;
+    color: #C71585;
   }
 
 .aboutFT p {
@@ -47,13 +48,15 @@ header nav {
   font-size: 27px;
   margin-top: 3%;
   margin-bottom: 2%;
+  color: #C71585;
 }
 
 h2 {
-  display: flex;
+  display:flex;
   justify-content: center;
-  margin-top: 3%;
   margin-bottom: 2%;
+  margin-top: 2%;
+  color: #2E4053;
 }
 
 .ashley {
@@ -62,6 +65,7 @@ h2 {
   align-items: center;
   margin-bottom: 2rem;
   text-decoration: none;
+  color: #0E6655;
 }
 
 .ashley img {
@@ -84,14 +88,21 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.frontenddevs .Brian {
+  border-radius: 65%;
+  width: 230px;
+}
+
 .frontenddevs .Kirsten,
 .frontenddevs .Natividad,
-.frontenddevs .Mark {
+.frontenddevs .Mark,
+.frontenddevs .Brian {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-bottom: 2rem;
   text-decoration: none;
+  color: #0E6655;
 }
 
 .backenddev {
@@ -112,6 +123,28 @@ h2 {
   text-align: center;
   margin-bottom: 2rem;
   text-decoration: none;
+  color: #0E6655;
+}
+
+.projectlead {
+  display: flex;
+  justify-content: center;
+}
+
+.projectlead img {
+  justify-content: center;
+  border-radius: 45%;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+.projectlead .Pedro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #0E6655;
 }
 
 .copyright {
