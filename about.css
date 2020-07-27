@@ -4,10 +4,6 @@ html, body {
     background-color: darkorange;
     color: white;
   }
-
-  @media (max-width: 500px) {
-    
-  }
   
 h1, h2, h3, h4, h5 {
     font-size: 35px;
@@ -15,10 +11,23 @@ h1, h2, h3, h4, h5 {
     font-family: 'Rubik', sans-serif;
   }
 
+@media (max-width: 500px) {
+  h2 {
+    font-size: 20px;
+  }
+}
+
 .minilogo {
     width: 8%;
     height: 8%;
   }
+
+@media (max-width: 500px) {
+  .minilogo {
+    width: 23%;
+    height: 23%;
+  }
+}
 
 header nav {
     display: flex;
@@ -30,6 +39,27 @@ header nav {
     text-decoration: none;
   }
 
+@media (max-width: 800px) {
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: auto;
+  }
+}
+
 .aboutFT h1 {
     display: flex;
     flex-direction: row;
@@ -37,6 +67,12 @@ header nav {
     margin-bottom: 1rem;
     color: #C71585;
   }
+
+@media (max-width: 500px) {
+  .aboutFT h1 {
+    font-size: 22px;
+  }
+}
 
 .aboutFT p {
     display: flex;
@@ -46,6 +82,25 @@ header nav {
     padding: 10px;
   }
 
+@media (max-width: 800px) {
+  .aboutFT p {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    margin-top: 1.5%;
+  }
+}
+
+@media (max-width: 500px) {
+  .aboutFT p {
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3px;
+  }
+}
+
 .theteam {
   display: flex;
   justify-content: center;
@@ -53,6 +108,12 @@ header nav {
   margin-top: 3%;
   margin-bottom: 2%;
   color: #C71585;
+}
+
+@media (max-width: 500px) {
+  .theteam h1 {
+    font-size: 25px;
+  }
 }
 
 h2 {
@@ -72,6 +133,13 @@ h2 {
   color: #0E6655;
 }
 
+@media (max-width: 500px) {
+  .ashley h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+  }
+}
+
 .ashley img {
   justify-content: center;
   border-radius: 45%;
@@ -85,6 +153,24 @@ h2 {
   justify-content: space-evenly;
 }
 
+@media (max-width: 800px) {
+  .frontenddevs h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .frontenddevs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+  }
+}
+
 .frontenddevs img {
   justify-content: center;
   border-radius: 45%;
@@ -92,9 +178,32 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.frontenddevs .Brian {
-  border-radius: 65%;
-  width: 230px;
+@media (max-width: 800px) {
+  .frontenddevs img {
+    justify-content: center;
+    border-radius: 45%;
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .frontenddevs img {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+ .frontenddevs .Brian {
+  border-radius: 70%;
+  width: 260px;
+}
+
+@media (max-width: 800px) {
+  .frontenddevs .Brian {
+    border-radius: 70%;
+    width: 120px;
+  }
 }
 
 .frontenddevs .Kirsten,
