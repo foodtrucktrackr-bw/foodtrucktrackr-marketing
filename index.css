@@ -49,6 +49,16 @@ header nav {
     }
   }
 
+@media (max-width: 800px) {
+  header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    margin: auto;
+  }
+}
+
 .topcontent {
     margin: 3rem 3rem;
   }
@@ -142,6 +152,14 @@ header nav {
     flex-direction: column;
     justify-content: flex-start;
     width: 45vw;
+  }
+}
+
+@media (max-width: 800px) {
+  .bottompics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
