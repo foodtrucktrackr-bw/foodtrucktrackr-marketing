@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 500px) {
  h1, h2, h3 {
-    font-size: 21px;
+    font-size: 24px;
   }
 }
 
@@ -89,7 +89,7 @@ header nav {
     display: flex;
     flex-direction: column;
     position: relative;
-    font-size: 16px;
+    font-size: 23px;
     left: -30px;
   }
 }
@@ -103,9 +103,10 @@ header nav {
 
 @media (max-width: 500px) {
   .large {
-    width: 65vw;
+    width: 80vw;
     height: 240px;
     position: relative;
+    margin-right: 4rem;
   }
 }
 
@@ -131,7 +132,8 @@ header nav {
 
 @media (max-width: 500px) {
   .middlecontent p {
-    font-size: 16px;
+    font-size: 20px;
+    margin-left: 3rem;
   }
 }
 
@@ -151,15 +153,15 @@ header nav {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 45vw;
   }
 }
 
 @media (max-width: 800px) {
   .bottompics {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
+    margin-left: 2rem;
   }
 }
 
@@ -185,9 +187,10 @@ header nav {
   }
 
 @media (max-width: 500px) {
-  .appeats .appeatspic {
-    position: relative;
-    width: 23rem;
+  .appeatspic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

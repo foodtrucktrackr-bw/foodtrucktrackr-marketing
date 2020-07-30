@@ -6,7 +6,7 @@ html, body {
   }
   
 h1, h2, h3, h4, h5 {
-    font-size: 35px;
+    font-size: 40px;
     margin-bottom: 3px;
     font-family: 'Rubik', sans-serif;
   }
@@ -40,7 +40,7 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.7rem 4rem 2rem 4rem;
+    margin: auto;
     background-color: deepskyblue;
     text-decoration: none;
   }
@@ -49,9 +49,9 @@ header nav {
   header nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     margin: auto;
   }
@@ -182,7 +182,7 @@ h2 {
 .frontenddevs img {
   justify-content: center;
   border-radius: 45%;
-  width: 250px;
+  width: 260px;
   margin-bottom: 1rem;
 }
 
@@ -192,6 +192,7 @@ h2 {
     border-radius: 45%;
     width: 180px;
     margin-bottom: 1rem;
+    margin-left: 4rem;
   }
 }
 
@@ -199,12 +200,8 @@ h2 {
   .frontenddevs img {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
-}
-
- .frontenddevs .Brian {
-  border-radius: 70%;
-  width: 260px;
 }
 
 @media (max-width: 500px) {
@@ -212,13 +209,14 @@ h2 {
     border-radius: 70%;
     width: 150px;
     position: relative;
-    right: 40px;
+    margin-right: 8rem;
   }
 }
 
 @media (max-width: 500px) {
   .frontenddevs .Brian h3 {
     font-size: 35px;
+    margin-left: 6rem;
   }
 }
 
@@ -241,8 +239,8 @@ h2 {
 
 .backenddev img {
   justify-content: center;
-  border-radius: 45%;
-  width: 250px;
+  border-radius: 46%;
+  width: 200px;
   margin-bottom: 1rem;
 }
 
